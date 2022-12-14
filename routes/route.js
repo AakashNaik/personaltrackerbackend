@@ -31,7 +31,7 @@ router.get('/getAll', async(req, res) => {
     // catch(error){
     //     res.status(500).json({message: error.message})
     // }
-    res.send({'output':'get All'})
+    res.send({'output':'get All called'})
 })
 
 //Get by ID Method
