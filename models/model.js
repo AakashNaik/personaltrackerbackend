@@ -8,6 +8,10 @@ const dataSchema = new mongoose.Schema({
     input: {
         required: true,
         type: String
+    },
+    date:{
+        required: true,
+        type: String,
     }
 })
 

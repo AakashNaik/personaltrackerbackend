@@ -8,7 +8,8 @@ const router = express.Router()
 router.post('/post', async (req, res) => {
     const data = new Model({
         topic: req.body.topic,
-        input: req.body.input
+        input: req.body.input,
+        date : req.body.date,
     })
     //console.log('error1');
     try {
